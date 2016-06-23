@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+*, fieldset {
+    margin:0;
+    padding:0;
+}
+html {
+    font-size:62.5%;
+}
+body {
+    background:#fff;
+    color:#555;
+    font-family:'opensans_regular', arial, helvetica, sans-serif;
+    font-size:1.4em;
+}
+html,
+body {
+    height:100%;
+    min-height:100%;
+}
+fieldset,
+img {
+    border:none;
+}
+strong,
+a,
+em,
+pre {
+    font-size:inherit;
+}
+strong {
+    font-family:'opensans_semibold', 'opensans_regular', arial, helvetica, sans-serif;
+    font-weight:normal;
+}
+pre,
+code {
+    display:inline;
+    font-family:"Courier New", Courier, monospace;
+}
+abbr,
+acronym {
+    border-bottom:1px dotted #555;
+    cursor:help;
+    font-family:inherit;
+}

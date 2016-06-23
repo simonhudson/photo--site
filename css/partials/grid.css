@@ -1,0 +1,8 @@
+.grid__wrap {
+  display:flex;
+  flex-wrap:wrap;
+}
+.grid__col {
+  background:#ddd;
+  flex-grow:1;
+}
