@@ -1,0 +1,10 @@
+.item {
+  height:48em;  
+}
+.item__text {
+
+}
+.item__img img {
+  height:auto;
+  width:100%;
+}

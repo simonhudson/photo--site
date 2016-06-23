@@ -1,8 +1,11 @@
-.grid__wrap {
-  display:flex;
-  flex-wrap:wrap;
-}
-.grid__col {
-  background:#ddd;
-  flex-grow:1;
+@media all and (min-width: 1024px) {
+  .grid__wrap {
+    align-items:center;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .grid__col {
+    flex-grow:1;
+    text-align:center;
+  }
 }

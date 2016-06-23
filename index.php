@@ -9,5 +9,20 @@
 </head>
 <body>
 
+<header>
+  <p>Header</p>
+</header>
+
+<main>
+  <div class="item grid__wrap">
+    <div class="item__text grid__col">
+      <p>TEXT</p>
+    </div>
+    <div class="item__img grid__col">
+      <img src="imgs/Desert.jpg" />
+    </div>
+  </div>
+</main>
+
 </body>
 </html>
