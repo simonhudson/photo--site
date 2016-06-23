@@ -1,1 +1,2 @@
-# photo--site
+# Photo site
+Example photography portfolio site
