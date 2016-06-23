@@ -1,10 +1,25 @@
-.item {
-  height:48em;  
+.item__wrap {
+  float:left;
+  height:38em;
+  margin-bottom:-2px;
+  width:100%;
 }
-.item__text {
 
-}
 .item__img img {
   height:auto;
   width:100%;
+}
+
+@media all and (min-width: 1024px) {
+  
+  .item__text,
+  .item__img {
+    float:left;
+    width:50%;
+  }
+
+  .item__text-content {
+    vertical-align:middle;
+  }
+
 }

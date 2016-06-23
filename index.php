@@ -14,12 +14,24 @@
 </header>
 
 <main>
-  <div class="item grid__wrap">
-    <div class="item__text grid__col">
-      <p>TEXT</p>
+  <div class="item__wrap">
+    <div class="item__text">
+      <div class="item__text-content">
+        <p>TEXT</p>
+      </div>
     </div>
-    <div class="item__img grid__col">
+    <div class="item__img">
       <img src="imgs/Desert.jpg" />
+    </div>
+  </div>
+  <div class="item__wrap">
+    <div class="item__text">
+      <div class="item__text-content">
+        <p>TEXT</p>
+      </div>
+    </div>
+    <div class="item__img">
+      <img src="imgs/Jellyfish.jpg" />
     </div>
   </div>
 </main>
